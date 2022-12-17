@@ -1,0 +1,40 @@
+/* Khởi tạo mấy cái biến */
+:root{
+    --black-color: #000;
+    --white-color: #fff;
+    --blue-color: #3B6E9C;
+    --light__blue-color: #ECF8FC;
+    --red-color: #D24767;
+    --orange-color: #F89A56;
+    --footer-size: 13.6rem;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    /* 100%: 16px => 62.5% =10px
+    Vậy cứ 1rem = 10px, như vậy sẽ dễ configure cho mấy đối tượng sau
+     */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}

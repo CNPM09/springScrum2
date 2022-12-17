@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//WebContent/asset/css/header-styles.css=UTF-8
+encoding//WebContent/default/header/header.jsp=UTF-8
+encoding//WebContent/default/login.jsp=UTF-8
+encoding//src/main/java/DAO/HelperUtils.java=UTF-8
+encoding//src/main/java/service/LoginService.java=UTF-8
+encoding//src/main/java/service/RegistrationPriodService.java=UTF-8
+encoding//src/main/java/service/ThongBaoService.java=UTF-8

@@ -1,0 +1,103 @@
+/* usual class */
+.mr-left-1rem{
+    margin-left: 1rem;
+}
+/* Header: begin */
+.header{
+    width: auto;
+    height: 19rem;
+    left: 0px;
+    top: 0px;
+}
+
+/* header__container:begin */
+.header__container{
+    height: 14rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+    background-color: var(--light__blue-color);
+}
+
+.header__container--left{
+    display: flex;
+}
+
+.header__container--right{
+    height: 100%;
+}
+
+.header__container--right img{
+    width: auto;
+    height: 13rem;
+    left: -41px;
+    right: 0;
+    object-fit: fill;
+}
+
+
+.header__container-logo{
+    width: 77px;
+    height: 97px;
+}
+
+.header__container-content{
+    min-height: 97px; /* LÃ m cho chiá»�u cao báº±ng vá»›i logo*/
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__container-content-VNName{
+    line-height: 2.4rem;
+    display: block;
+    margin: 0; 
+    color: var(--blue-color);
+}
+
+.header__container-content-EnglishName{
+    display: block;
+    margin: 0;
+}
+
+.header__container-content-line{
+    display: block;
+    margin: 0;
+    transform: translateY(-50%); /* LÃ m cho dÃ²ng gáº¡ch chÃ¢n vá»� giá»¯a */
+}
+
+.header__container-content-departmentName{
+    display: block;
+    margin: 0;
+    color: var(--red-color);
+}
+/* header__container: end */
+
+/* header__nav: begin */
+.header__nav{
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 4rem;
+    font-size: 1.6rem;
+    background-color: var(--blue-color);
+    border: 0.1rem solid #000;
+}
+.header__nav-home,
+.header__nav-login{
+    display: inline-block;
+}
+
+.header__nav-icon,
+.header__nav-text{
+    display: inline-block;
+    color: var(--white-color);
+}
+/* header__nav: end */
+
+/* Header: END */
